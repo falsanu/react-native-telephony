@@ -29,7 +29,7 @@
     "eslint-plugin-react": "^7.3.0",
     "jest": "^20.0.4",
     "react": "^16.0.0-rc.2",
-    "react-native": "^0.48.2"
+    "react-native": "^0.48.2",
     "react-test-renderer": "^16.0.0-rc.2"
   },
   "jest": {

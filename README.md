@@ -19,6 +19,8 @@ react-native link react-native-telephony
 
 ## Usage
 
+You may need to start with Superuser rights.
+
 ``` javascript
 import Telephony from 'react-native-telephony'
 
@@ -54,9 +56,11 @@ componentWillMount() {
       break;
     }
   })
-
+  /* add
+     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+     to use this function in your AndroidManifest.xml*/
   Telephony.getCellInfo((cellInfos) => {
-    celInfos.map((info) => {
+    cellInfos.map((info) => {
       switch(info.connectionType) {
         case "CDMA":
           console.log(info.cellIdentity)

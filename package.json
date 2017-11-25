@@ -27,7 +27,7 @@
     "babel-preset-react-native": "2.0.0",
     "eslint": "^4.7.0",
     "eslint-plugin-react": "^7.3.0",
-    "jest": "^20.0.4",
+    "jest": "^20.0.4"
   },
   "jest": {
     "preset": "react-native"

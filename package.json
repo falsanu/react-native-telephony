@@ -28,9 +28,6 @@
     "eslint": "^4.7.0",
     "eslint-plugin-react": "^7.3.0",
     "jest": "^20.0.4",
-		"react": "16.0.0-beta.5",
-    "react-native": "^0.49.5",
-    "react-test-renderer": "^16.0.0-rc.2"
   },
   "jest": {
     "preset": "react-native"
